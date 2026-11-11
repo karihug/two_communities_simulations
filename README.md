@@ -23,7 +23,7 @@ g++ -O3 -std=c++17 main.cpp SIRSimulation.cpp -o simulation_final
 
 ## Graph generation
 
-The generator takes the **total population size**: `20000000` creates two communities of 10 million individuals each. The parameters `mu` and `sigma` describe the underlying normal distribution of a lognormal degree distribution. Seed: 20261111.
+The generator takes the **total population size**: `20000000` creates two communities of 10 million individuals each. The parameters `mu` and `sigma` describe the underlying normal distribution of a lognormal degree distribution.
 
 ### Lognormal graphs
 
@@ -45,6 +45,7 @@ Degree-(dis)assortative graphs are drawn according to the descriptions given in 
 ./graphgen disassortative 20000000 mu population \
   > output_dir/disassortative_graph_20m.txt
 ```
+Graph generation is stochastic and outputs from this code may slightly differ from the networks generated in the paper.
 
 ## Epidemic simulation
 
