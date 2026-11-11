@@ -23,7 +23,7 @@ g++ -O3 -std=c++17 main.cpp SIRSimulation.cpp -o simulation_final
 
 ## Graph generation
 
-The generator takes the **total population size**: `20000000` creates two communities of 10 million individuals each. The parameters `mu` and `sigma` describe the underlying normal distribution of a lognormal degree distribution.
+The generator takes the **total population size**: `20000000` creates two communities of 10 million individuals each. The parameters `mu` and `sigma` describe the underlying normal distribution of a lognormal degree distribution. Seed: 20261111.
 
 ### Lognormal graphs
 
